@@ -1,0 +1,19 @@
+{
+  "name": "keyword-extractor",
+  "version": "1.0.0",
+  "description": "Extracao de palavras-chave estilo RAKE",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["nlp", "text", "pt-br", "typescript"],
+  "author": "Tox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
